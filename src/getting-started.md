@@ -38,4 +38,4 @@ You can simply finish bot setup by taking the following steps:
 
 ### Follow Setup Instructions
 Once you've entered the setup panel for the bot, complete prompts/forms as described.
-See [Server Setup](/server-configurations) for different setup options available.
+See [Server Setup](/server-config) for different setup options available.
