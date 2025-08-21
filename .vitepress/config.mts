@@ -3,10 +3,9 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 // https://vitepress.dev/reference/default-theme-config
 export default defineConfig({
-  appearance: 'dark',
+  appearance: 'force-auto',
   title: "Sessions Bot - Docs",
   description: "Main documentation pertaining to Sessions Bot a Discord event management bot.",
-  base: "/docs",
 
   lastUpdated: true,
   srcDir: "src",
@@ -25,12 +24,18 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'Getting Started',
         items: [
-          { text: 'Getting Started', link: '/getting-started' },
-          { text: 'Server Configuration', link: '/server-config' }
+          { text: 'Invite the Bot', link: '/getting-started/#invite' },
+          { text: 'Setting Up', link: '/getting-started/#setup'}
         ],
-
-      }
+      },
+      {
+        text: 'Server Configuration',
+        items: [
+          { text: 'Configuration Options', link: '/server-config/#', base: '/' }
+        ],
+      },
     ],
 
     socialLinks: [
@@ -47,6 +52,11 @@ export default defineConfig({
       formatOptions: {
         dateStyle: 'short'
       }
+    },
+
+    footer: {
+      message: 'Thanks for using Sessions Bot!',
+      copyright: 'Copyright © SessionsBot'
     }
   },
 
