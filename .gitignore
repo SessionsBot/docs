@@ -1,0 +1,8 @@
+# Local Dev Files:
+node_modules/*
+.private/*
+
+# VitePress Cache & Build:
+.vitepress/cache
+.vitepress/dist
+
