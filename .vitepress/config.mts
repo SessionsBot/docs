@@ -6,6 +6,7 @@ export default defineConfig({
   appearance: 'dark',
   title: "Sessions Bot - Docs",
   description: "Main documentation pertaining to Sessions Bot a Discord event management bot.",
+  base: "/docs",
 
   lastUpdated: true,
   srcDir: "src",
