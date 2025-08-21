@@ -5,18 +5,18 @@
 
 # Getting Started
 
-## Inviting the Bot
+## Inviting the Bot {#invite}
 You can invite Sessions Bot via 2 options:
 
  - Visit https://invite.sessionsbot.fyi
-- Search for **Sessions Bot** within Discord's Application Marketplace. 
+ - <del>Search for **Sessions Bot** within Discord's Application Marketplace.</del> <i>(currently unavailable)</i>
 
 ::: danger NOTE
 Please do not modify/adjust the default permissions granted to the Discord Bot upon invite. Doing so can cause critical errors and may break functionality.
 :::
 
 
-## Setup and Configuration
+## Setting Up {#setup}
 After inviting Sessions Bot to a new Discord Server it will attempt to send a 'greeting' message in any available text/chat channel.
 
 If no text channel is available, the bot will then try to send the greeting via dm to the inviting user or server owner.
@@ -38,4 +38,4 @@ You can simply finish bot setup by taking the following steps:
 
 ### Follow Setup Instructions
 Once you've entered the setup panel for the bot, complete prompts/forms as described.
-See [Server Setup](/server-config) for different setup options available.
+See [Server Configuration](/server-config) for different setup options available.
