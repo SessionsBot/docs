@@ -44,7 +44,7 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/SessionsBot/docs/edit/main/:path',
+      pattern: 'https://github.com/SessionsBot/docs/edit/main/src/:path',
       text: 'Suggest an edit on GitHub'
     },
 
