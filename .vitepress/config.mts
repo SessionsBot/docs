@@ -25,15 +25,24 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Getting Started',
+        link: '/getting-started',
+        collapsed: true,
         items: [
-          { text: 'Invite the Bot', link: '/getting-started/#invite' },
-          { text: 'Setting Up', link: '/getting-started/#setup'}
+          { text: 'Invite the Bot', link: '/getting-started#invite',  },
+          { text: 'Setting Up', link: '/getting-started#setup',  }
         ],
       },
       {
         text: 'Server Configuration',
+        link: '/server-config',
+        collapsed: true,
         items: [
-          { text: 'Configuration Options', link: '/server-config/#', base: '/' }
+          { text: 'Accent Color', link: '/server-config#accent-color',  },
+          { text: 'Admin Roles', link: '/server-config#admin-roles', },
+          { text: 'Time Zone', link: '/server-config#time-zone', },
+          { text: 'Mention Roles', link: '/server-config#mention-roles', },
+          { text: 'Post Time', link: '/server-config#post-time', },
+          { text: 'Signup Channel', link: '/server-config#signup-channel', },
         ],
       },
     ],
@@ -55,7 +64,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Thanks for using Sessions Bot!',
+      message: 'Thanks for using Sessions Bot! <br> <a href="https://sessionsbot.fyi/support" target="_blank">Get Support</a>',
       copyright: 'Copyright © SessionsBot'
     }
   },
