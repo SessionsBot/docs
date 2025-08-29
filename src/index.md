@@ -6,7 +6,7 @@ hero:
   name: "<p class='siteTitle'>Sessions Bot<p>"
   text: "Documentation"
   image: '/SessionsBotLogoNoText.png'
-  tagline: A powerful Discord application for managing group events/sessions<br>Streamlined, Automated, and Reliable.
+  tagline: A powerful Discord application for managing group events/sessions.<br>Streamlined, Automated, and Reliable
   actions:
     - theme: alt
       text: 🔗 sessionsbot.fyi

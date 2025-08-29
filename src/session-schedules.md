@@ -20,7 +20,7 @@ Each session/schedule is configured by the following options.
 Sessions can include roles for users to assign/RSVP to once the session becomes available. 
 
 <u> See Example </u>
-<img class='image-small border-radium-sm' src="./assets/signup-panel-w-roles.png">
+<img class='image-small border-radium-sm' src="./signup-panel-w-roles.png">
 
 Each role has the follow configuration options:
 
