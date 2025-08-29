@@ -23,11 +23,13 @@ export default defineConfig({
       { text: 'Documentation', link: '/getting-started' },
     ],
 
+    outline: "deep",
+
     sidebar: [
       {
         text: 'Getting Started',
         link: '/getting-started',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'Invite the Bot', link: '/getting-started#invite',  },
           { text: 'Setting Up', link: '/getting-started#setup',  }
@@ -35,32 +37,32 @@ export default defineConfig({
       },
       {
         text: 'Server Configuration',
-        link: '/server-config',
-        collapsed: true,
+        collapsed: false,
         items: [
-          { text: 'Accent Color', link: '/server-config#accent-color',  },
-          { text: 'Admin Roles', link: '/server-config#admin-roles', },
-          { text: 'Time Zone', link: '/server-config#time-zone', },
-          { text: 'Mention Roles', link: '/server-config#mention-roles', },
-          { text: 'Post Time', link: '/server-config#post-time', },
-          { text: 'Signup Channel', link: '/server-config#signup-channel', },
+            {text: 'Preferences', link: '/server-config', collapsed: true, items: [
+              { text: 'Accent Color', link: '/server-config#accent-color',  },
+              { text: 'Admin Roles', link: '/server-config#admin-roles', },
+              { text: 'Time Zone', link: '/server-config#time-zone', },
+              { text: 'Mention Roles', link: '/server-config#mention-roles', },
+              { text: 'Post Time', link: '/server-config#post-time', },
+              { text: 'Signup Channel', link: '/server-config#signup-channel', },
+            ]},
+            {text: 'Sessions / Schedules', link: '/session-schedules'}
+          
         ],
       },
       {
         text: 'Bot Commands',
-        collapsed: true,
+        collapsed: false,
         items: [
-          { text: 'Commands', link: '/commands', items: [
+          { text: 'Commands', link: '/commands', collapsed: true, items: [
             { text: '/setup', link: '/commands#setup',  },
             { text: '/my-sessions', link: '/commands#my-sessions',  },
             { text: '/add-assignee', link: '/commands#add-assignee',  },
             { text: '/remove-assignee', link: '/commands#remove-assignee',  },
             { text: '/feedback', link: '/commands#feedback',  },
           ]},
-          { text: 'Permissions', link: '/command-permissions', items: [
-            { text: 'Adjust Permissions', link: '/command-permissions#adjust-permissions',  },
-            { text: 'Disable Commands', link: '/command-permissions#disable-commands',  }
-          ]},
+          { text: 'Permissions', link: '/command-permissions', collapsed: true},
         ],
       },
     ],

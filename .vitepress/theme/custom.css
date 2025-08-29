@@ -1,0 +1,18 @@
+/* Homepage - Hero Site Title */
+.VPHero .name {
+    font-weight: 800;
+    background: linear-gradient(90deg,  #8e2de2, #560fe4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* for Firefox */
+    /* -webkit-text-fill-color: currentColor; */
+}
+
+
+.border-radium-sm{
+    border-radius: 10px;
+}
+
+.image-small {
+    width: 275px !important;
+}
