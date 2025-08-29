@@ -11,7 +11,7 @@ Your servers preferred accent color (hex color) to be used within certain featur
 
 See Examples Below:
 
-<img src='./assets/accent-color-ex.png'>
+<img src='./accent-color-ex.png'>
 
 
 ## `Admin Roles`
