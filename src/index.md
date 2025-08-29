@@ -8,12 +8,12 @@ hero:
   image: './assets/SessionsBotLogoNoText.png'
   tagline: A powerful Discord application for managing group events/sessions<br>Streamlined, Automated, and Reliable.
   actions:
+    - theme: alt
+      text: 🔗 sessionsbot.fyi
+      link: https://sessionsbot.fyi
     - theme: brand
       text: Read Documentation
       link: /getting-started
-    - theme: alt
-      text: Visit Homepage
-      link: https://sessionsbot.fyi
 
 features:
   - title: ⏰ Session Schedules

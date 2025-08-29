@@ -78,8 +78,8 @@ Used to remove a specified user from *ANY* role(s) withing a specified session.
 ```
 
 > **Options:**
-- `User`: The user to assign a new role to.
-- `Session`: The session to assign the user to.
+- `User`: The user to remove from the session.
+- `Session`: The session to remove the user from.
 
 
 > **Required Permissions:**
