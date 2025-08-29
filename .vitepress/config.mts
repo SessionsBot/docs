@@ -12,7 +12,7 @@ export default defineConfig({
   srcDir: "src",
   
   themeConfig: {
-    logo: './assets/SessionsBotLogoNoText.png',
+    logo: '/SessionsBotLogoNoText.png',
     
     search: {
       provider: 'local'

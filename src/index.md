@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Sessions Bot"
   text: "Documentation"
-  image: './assets/SessionsBotLogoNoText.png'
+  image: '/SessionsBotLogoNoText.png'
   tagline: A powerful Discord application for managing group events/sessions — streamlined, automated, and reliable.
   actions:
     - theme: brand
