@@ -1,8 +1,3 @@
----
- title: Getting Started
- editLink: true
----
-
 # Getting Started
 
 ## Inviting the Bot {#invite}
@@ -25,17 +20,24 @@ This greeting message directs the user to the [SessionsBot's website](https://se
 
 ::: details Don't see your greeting message?
 If for some reason the greeting message is unavailable, don't worry!
-You can simply finish bot setup by taking the following steps:
+You can simply finish bot setup by taking either of the following steps:
 
+**Option 1:**
+1. Use the `/setup` command inside your Discord Server
+2. Click the 'Setup' button.
+3. Follow prompts for setup. 🎉
+
+*--- OR ---*
+
+**Option 2:**
 1. Visit [SessionsBot's Website](https://sessionsbot.fyi).
 2. Sign in using Discord.
 3. View your [Dashboard](https://sessionsbot.fyi/dashboard).
 4. Select the server you wish to configure.
 5. Follow prompts for setup. 🎉
 
-
 :::
 
 ### Follow Setup Instructions
 Once you've entered the setup panel for the bot, complete prompts/forms as described.
-See [Server Configuration](/server-config) for different setup options available.
+See [Server Configuration](/server-config) for different setup options available to you.

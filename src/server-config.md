@@ -1,15 +1,28 @@
+---
+ title: Server Configuration
+---
+
 # Server Configuration Options
 
-Sessions Bot allows for various customizations within your server and our features. Please reference below the available configuration options.
+Sessions Bot allows for *various customizations* within your server and our features. Please reference below the available configuration options.
 
 ## `Accent Color`
-Servers preferred accent color (hex color) to be used within certain features such as Discord messages, website elements, etc.
+Your servers preferred accent color (hex color) to be used within certain features such as Discord messages, website elements, etc.
+
+See Examples Below:
+
+<img src='./assets/accent-color-ex.png'>
+
 
 ## `Admin Roles`
-Specify certain roles within your Discord Server to be granted 'admin' permission to Sessions Bot features. 
+Specify certain roles within your Discord Server to be granted 'admin' permissions to Sessions Bot features.
 
-::: info Please note:
-This grants permissions to sensitive actions such as removing session schedules and modifying guild configurations within the web dashboard.
+
+
+
+::: info Please Note:
+- Granting users/roles this permission will allow them ***full access*** to change your server configurations such as Session Schedules, Time Zone, Upcoming Sessions, etc.
+-  This ***wont*** adjust Discord Slash Command permissions... To do so please go to your *Discord Server > Settings > Integrations > Bots & Apps > Sessions Bot > Commands > Set Permissions* (adjust as you wish).
 :::
 
 ## `Time Zone`
