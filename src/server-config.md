@@ -36,3 +36,7 @@ The time of day to post any new `Session Signup` message to your specified `Sign
 
 ## `Signup Channel`
 The specified text-chat channel within your Discord Server to post any new sessions or available sign ups for each day.
+
+## How to Modify
+
+Your servers preferences are initially setup during the [bot setup process](./getting-started.md) and you can later make modifications to any of your preferences by accessing your <a href='https://sessionsbot.fyi/dashboard' target="_blank">bot dashboard</a>.
