@@ -7,11 +7,12 @@ export default defineConfig({
   title: "Sessions Bot - Docs",
   description: "Main documentation pertaining to Sessions Bot a Discord event management bot.",
 
+  cleanUrls: true,
   lastUpdated: true,
   srcDir: "src",
   
   themeConfig: {
-    logo: 'https://github.com/SessionsBot/frontend/blob/main/src/assets/sessionsBot.png?raw=true',
+    logo: './assets/SessionsBotLogoNoText.png',
     
     search: {
       provider: 'local'
@@ -43,6 +44,23 @@ export default defineConfig({
           { text: 'Mention Roles', link: '/server-config#mention-roles', },
           { text: 'Post Time', link: '/server-config#post-time', },
           { text: 'Signup Channel', link: '/server-config#signup-channel', },
+        ],
+      },
+      {
+        text: 'Bot Commands',
+        collapsed: true,
+        items: [
+          { text: 'Commands', link: '/commands', items: [
+            { text: '/setup', link: '/commands#setup',  },
+            { text: '/my-sessions', link: '/commands#my-sessions',  },
+            { text: '/add-assignee', link: '/commands#add-assignee',  },
+            { text: '/remove-assignee', link: '/commands#remove-assignee',  },
+            { text: '/feedback', link: '/commands#feedback',  },
+          ]},
+          { text: 'Permissions', link: '/command-permissions', items: [
+            { text: 'Adjust Permissions', link: '/command-permissions#adjust-permissions',  },
+            { text: 'Disable Commands', link: '/command-permissions#disable-commands',  }
+          ]},
         ],
       },
     ],
