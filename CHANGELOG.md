@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.2.0](https://github.com/sessionsbot/docs/compare/v0.1.0...v0.2.0) (2025-08-29)
+
+### ⚡️ Features
+
+* sessions/schedules docs ([67abf37](https://github.com/sessionsbot/docs/commit/67abf37713414092378a0f117f4ec3eb335b91ba))
+* sessions/schedules docs ([137f982](https://github.com/sessionsbot/docs/commit/137f982aef7616141c661f1dc6a0e723021c8f27))
+
+### 🐞 Bug Fixes
+
+* assets path ([b190d61](https://github.com/sessionsbot/docs/commit/b190d61a09573aeff18eb5a97f80bc0538cee176))
+* assets path ([87867b4](https://github.com/sessionsbot/docs/commit/87867b46adf279bd979a23c123125e1a7d3985c9))
+* logo path ([2c18eff](https://github.com/sessionsbot/docs/commit/2c18eff3fd489ff01d9b9796dca95915f235bfff))
+* minor fixes ([dc98aab](https://github.com/sessionsbot/docs/commit/dc98aab6dcb12638ed2de3641aa9625a236e27f1))
+
+### 🎨 Styling
+
+* improvements ([3d81f9f](https://github.com/sessionsbot/docs/commit/3d81f9f993c7d6ad96ea5b9129d0d206ab26b794))
+* improvements ([04e61a6](https://github.com/sessionsbot/docs/commit/04e61a66b4ec37733fb8a6adee19ebeed9def458))
+
+### ♻️ Refactoring
+
+* minor improvements ([c8b6f50](https://github.com/sessionsbot/docs/commit/c8b6f509ff499c27107d776d363e0fe31d6561cc))
+* minor improvements ([740c4a0](https://github.com/sessionsbot/docs/commit/740c4a079e3395458e5c74adcf2c7545c7eed5f9))
+
 ## 0.1.0 (2025-08-29)
 
 ### ⚡️ Features
