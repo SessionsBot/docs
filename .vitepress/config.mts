@@ -83,7 +83,7 @@ export default defineConfig({
 
     footer: {
       message: 'Thanks for using Sessions Bot! <br> <a href="https://sessionsbot.fyi/support" target="_blank">Get Support</a>',
-      copyright: 'Copyright © SessionsBot'
+      copyright: 'Copyright © Sessions Bot'
     }
   },
 

@@ -16,7 +16,7 @@ After inviting Sessions Bot to a new Discord Server it will attempt to send a 'g
 
 If no text channel is available, the bot will then try to send the greeting via dm to the inviting user or server owner.
 
-This greeting message directs the user to the [SessionsBot's website](https://sessionsbot.fyi) to begin the bot setup process for the new server.
+This greeting message directs the user to the [Sessions Bot's website](https://sessionsbot.fyi) to begin the bot setup process for the new server.
 
 ::: details Don't see your greeting message?
 If for some reason the greeting message is unavailable, don't worry!
@@ -30,7 +30,7 @@ You can simply finish bot setup by taking either of the following steps:
 *--- OR ---*
 
 **Option 2:**
-1. Visit [SessionsBot's Website](https://sessionsbot.fyi).
+1. Visit [Sessions Bot's Website](https://sessionsbot.fyi).
 2. Sign in using Discord.
 3. View your [Dashboard](https://sessionsbot.fyi/dashboard).
 4. Select the server you wish to configure.
