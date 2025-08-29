@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.1](https://github.com/sessionsbot/docs/compare/v0.2.0...v0.2.1) (2025-08-29)
+
+### 🐞 Bug Fixes
+
+* img paths ([68a418c](https://github.com/sessionsbot/docs/commit/68a418ca51d9ccb9505bf25153d5ce35b73cfa3c))
+
 ## [0.2.0](https://github.com/sessionsbot/docs/compare/v0.1.0...v0.2.0) (2025-08-29)
 
 ### ⚡️ Features
