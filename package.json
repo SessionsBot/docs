@@ -1,15 +1,15 @@
 {
   "name": "sessions-bot-docs",
   "version": "0.2.1",
-  "description": "Vite Press documentation testing",
+  "description": "Main documentation for Sessions Bot Discord application & web app!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "release": "npx release-it"
   },
-  "author": "",
+  "author": "@sessionsbot",
   "license": "ISC",
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.1",
