@@ -1,22 +1,27 @@
 # Getting Started
 
 ## Inviting the Bot {#invite}
-You can invite Sessions Bot via 2 options:
+You can invite Sessions Bot to a Discord server you manage by using either of 2 options:
 
- - Visit https://invite.sessionsbot.fyi
- - <del>Search for **Sessions Bot** within Discord's Application Marketplace.</del> <i>(currently unavailable)</i>
+ > 1. Visit [invite.sessionsbot.fyi](https://invite.sessionsbot.fyi)
 
-::: danger NOTE
-Please do not modify/adjust the default permissions granted to the Discord Bot upon invite. Doing so can cause critical errors and may break functionality.
+ *--- OR ---*
+
+ > 2. <del>Search for **Sessions Bot** within Discord's Application Marketplace.</del> <br> <i>(currently unavailable)</i>
+
+::: warning ⚠️ NOTE!
+**Do NOT modify the default permissions granted to the Discord Bot** upon invite or its integration role within your server. Doing so can cause ***critical errors and may break functionality***.
+
+::: details Required Bot Permissions
+###### **`Create Private Threads`, `Create Public Threads`, `Embed Links`, `Manage Channels`, `Manage Messages`, `Manage Threads`, `Mention Everyone`, `Read Message History`, `Send Messages`, `Send Messages in Threads`, `View Channels`,** {#bot-perms}
+
 :::
 
 
 ## Setting Up {#setup}
-After inviting Sessions Bot to a new Discord Server it will attempt to send a 'greeting' message in any available text/chat channel.
+After inviting Sessions Bot to a new Discord Server it will send a greeting/how-to setup message in any available text/chat channel.
 
 If no text channel is available, the bot will then try to send the greeting via dm to the inviting user or server owner.
-
-This greeting message directs the user to the [Sessions Bot's website](https://sessionsbot.fyi) to begin the bot setup process for the new server.
 
 ::: details Don't see your greeting message?
 If for some reason the greeting message is unavailable, don't worry!
@@ -27,10 +32,8 @@ You can simply finish bot setup by taking either of the following steps:
 2. Click the 'Setup' button.
 3. Follow prompts for setup. 🎉
 
-*--- OR ---*
-
 **Option 2:**
-1. Visit [Sessions Bot's Website](https://sessionsbot.fyi).
+1. Visit [Sessions Bot's website](https://sessionsbot.fyi).
 2. Sign in using Discord.
 3. View your [Dashboard](https://sessionsbot.fyi/dashboard).
 4. Select the server you wish to configure.
@@ -39,5 +42,8 @@ You can simply finish bot setup by taking either of the following steps:
 :::
 
 ### Follow Setup Instructions
-Once you've entered the setup panel for the bot, complete prompts/forms as described.
+This greeting message *(as well as [`/setup`](./commands.md#setup))* directs the user to the [Sessions Bot's website](https://sessionsbot.fyi) to begin the bot setup process for the server.
+
+Once you've been directed to your server's setup page, complete prompts/forms as described.
 See [Server Configuration](/server-config) for different setup options available to you.
+
