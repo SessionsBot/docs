@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.0](https://github.com/sessionsbot/docs/compare/v0.2.1...v0.3.0) (2025-09-07)
+
+### ⚡️ Features
+
+* add new cmd docs ([b22ec9b](https://github.com/sessionsbot/docs/commit/b22ec9bc65f1a2869d7b9e04ac83337c1f9421aa))
+* add signup panel docs ([bd7c60f](https://github.com/sessionsbot/docs/commit/bd7c60f9bc48e70d995622b2713761a0840e6bc5))
+
+### 🐞 Bug Fixes
+
+* general improvements ([c525d30](https://github.com/sessionsbot/docs/commit/c525d30e0c7875abcf7f914f8457c3ee83bc70e0))
+* package updates ([0c5488a](https://github.com/sessionsbot/docs/commit/0c5488a11db86b7a54d3d7432ff53419af971df1))
+* update config ([0e437bd](https://github.com/sessionsbot/docs/commit/0e437bd4464709cbe99487ca77946b8af394c393))
+
 ## [0.2.1](https://github.com/sessionsbot/docs/compare/v0.2.0...v0.2.1) (2025-08-29)
 
 ### 🐞 Bug Fixes

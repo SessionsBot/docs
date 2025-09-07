@@ -1,6 +1,6 @@
 {
   "name": "sessions-bot-docs",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Main documentation for Sessions Bot Discord application & web app!",
   "main": "index.js",
   "scripts": {
