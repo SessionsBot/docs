@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 // https://vitepress.dev/reference/default-theme-config
 export default defineConfig({
-  appearance: 'force-auto',
   title: "Sessions Bot - Docs",
   description: "Main documentation pertaining to Sessions Bot a Discord event management bot.",
 
@@ -60,7 +59,9 @@ export default defineConfig({
             { text: '/my-sessions', link: '/commands#my-sessions',  },
             { text: '/add-assignee', link: '/commands#add-assignee',  },
             { text: '/remove-assignee', link: '/commands#remove-assignee',  },
+            { text: '/dashboard', link: '/commands#dashboard',  },
             { text: '/feedback', link: '/commands#feedback',  },
+            { text: '/help', link: '/commands#help',  },
           ]},
           { text: 'Permissions', link: '/command-permissions', collapsed: true},
         ],
