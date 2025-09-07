@@ -2,7 +2,7 @@
 The Sessions Bot Discord Application has quite a few different commands to utilize. Below is a detailed reference
 of the current bot commands available to you.
 
-## `/setup` {#setup}
+## `/setup`
 
 > **Used For:**
 
@@ -87,6 +87,22 @@ Used to remove a specified user from *ANY* role(s) withing a specified session.
 
 *see: [`Adjusting Command Permissions`](./command-permissions#adjust-permissions)*
 
+## `/dashboard` {#dashboard}
+
+> **Used For:**
+
+For quick access to web [dashboard](https://sessionsbot.fyi/dashboard) for Sessions Bot.
+
+> **How to Use:**
+```
+/dashboard
+```
+
+> **Required Permissions:**
+- `NONE` 
+
+*see: [`Adjusting Command Permissions`](./command-permissions#adjust-permissions)*
+
 ## `/feedback` {#feedback}
 
 > **Used For:**
@@ -96,6 +112,22 @@ To send your user feedback regarding Sessions Bot and it's features. If you have
 > **How to Use:**
 ```
 /feedback
+```
+
+> **Required Permissions:**
+- `NONE` 
+
+*see: [`Adjusting Command Permissions`](./command-permissions#adjust-permissions)*
+
+## `/help` {#help}
+
+> **Used For:**
+
+For quick access to support resources regarding the Discord bot.
+
+> **How to Use:**
+```
+/help
 ```
 
 > **Required Permissions:**
