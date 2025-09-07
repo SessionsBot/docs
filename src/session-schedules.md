@@ -8,19 +8,19 @@ Each schedule represents a daily event to become available to your server member
 
 Each session/schedule is configured by the following options.
 
-|   **Option**   |                    **Description**                    |
-|----------------|-------------------------------------------------------|
-| **Title**      | The title of the session.                             |
-| **Location**   | The location of the session. _(URL)_                  |
-| **Time**       | The daily time the session takes place.               |
-| **Roles**      | Roles users can assign to for this session.           |
+|   **Option**           |   **Description**                                                |
+|------------------------|------------------------------------------------------------------|
+| **Title**              | The title of the session.                                        |
+| **Location**           | The location of the session. _(URL)_                             |
+| **Time of Day**        | The daily time the session takes place.                          |
+| **Days of Week**       | The days of the week the session reoccurs.                       |
+| **Roles**              | Roles users can assign to for this session.                      |
+
+> Currently Sessions Bot only allows control of schedule frequency by day of the week.
 
 ### Session Roles <Badge type="tip">*Optional*</Badge>
 
 Sessions can include roles for users to assign/RSVP to once the session becomes available. 
-
-<u> See Example </u>
-<img class='image-small border-radium-sm' src="/signup-panel-w-roles.png">
 
 Each role has the follow configuration options:
 
@@ -31,10 +31,22 @@ Each role has the follow configuration options:
 | **Emoji**       | An emoji representing the role. |
 | **Capacity**    | The max capacity of this role.  |
 
-## Frequency
+## Signup Panels
 
-Each day your sessions will be posted to your server members via a `Signup Panel` message sent to your designated [`Signup Channel`](./server-config.md#signup-channel) at your specified [`Post Time`](./server-config.md#post-time). Currently, session schedules only offers *daily reoccurring schedules*.
+Signup Panels are the main feature of Sessions Bot! They provide your server members with details of the current days upcoming sessions.
+
+<u> See Example w/ Roles: </u>
+<img class='image-small border-radium-sm' src="/signup-panel-w-roles.png">
+
+<u> See Example w/o Roles: </u>
+<img class='image-small border-radium-sm' src="/signup-panel-wo-roles.png">
+
+### Frequency
+
+Each day any scheduled sessions will be posted to your server members via a *Signup Panel* message sent to your designated [`Signup Channel`](./server-config.md#signup-channel) at your specified [`Post Time`](./server-config.md#post-time). 
 
 ## How to Modify
 
-Your servers schedules are initially setup during the [bot setup process](./getting-started.md) and you can later make modifications to any of your schedules by accessing your <a href='https://sessionsbot.fyi/dashboard' target="_blank">bot dashboard</a>.
+Your servers schedules are initially setup during the [bot setup process](./getting-started.md). 
+
+You can later make modifications to any of your schedules by accessing your <a href='https://sessionsbot.fyi/dashboard' target="_blank">bot dashboard</a>.
