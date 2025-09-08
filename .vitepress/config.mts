@@ -40,7 +40,6 @@ export default defineConfig({
         items: [
             {text: 'Preferences', link: '/server-config', collapsed: true, items: [
               { text: 'Accent Color', link: '/server-config#accent-color',  },
-              { text: 'Admin Roles', link: '/server-config#admin-roles', },
               { text: 'Time Zone', link: '/server-config#time-zone', },
               { text: 'Mention Roles', link: '/server-config#mention-roles', },
               { text: 'Post Time', link: '/server-config#post-time', },

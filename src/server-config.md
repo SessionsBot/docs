@@ -13,16 +13,6 @@ Your servers preferred accent color (hex color) to be used within certain featur
 
 > (Signup Panel Message w/ red "Accent Color" set.) -->
 
-
-### `Admin Roles`
-Specify certain roles within your Discord Server to be granted 'admin' permissions to Sessions Bot features.
-
-::: info ℹ️ Please Note:
-- Granting users/roles this permission will allow them ***full access*** to change your server configurations such as Session Schedules, Time Zone, Upcoming Sessions, etc.
--  This ***wont*** adjust Discord Slash Command permissions... To do so please go to your *Discord Server > Settings > Integrations > Bots & Apps > Sessions Bot > Commands > Set Permissions* (adjust as you wish).
-::: 
-
-
 ### `Time Zone`
 Your servers preferred time zone to be used with date related actions such as when to post [`Session Signups`](./session-schedules.md#signup-panels).
 
