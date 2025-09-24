@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.4.0](https://github.com/sessionsbot/docs/compare/v0.3.0...v0.4.0) (2025-09-24)
+
+### ⚡️ Features
+
+* g-tag ([85907cc](https://github.com/sessionsbot/docs/commit/85907cc89d34d031a013ede3f9016cb816836017))
+* improve required perms ([058ccc6](https://github.com/sessionsbot/docs/commit/058ccc605ca509c274877913acf7b3455b7b0ca8))
+
+### 🐞 Bug Fixes
+
+* remove old `adminIds` prop ([98895a3](https://github.com/sessionsbot/docs/commit/98895a306d5776f4676aa61cd4a5ca448143cc49))
+
+### 🧹 Chores
+
+* **deps:** bump the npm-dependencies group across 1 directory with 35 updates ([6ab60e6](https://github.com/sessionsbot/docs/commit/6ab60e6800274e51240ce40115992f7ef7321ef4))
+* **deps:** bump the npm-dependencies group with 36 updates ([582d5ae](https://github.com/sessionsbot/docs/commit/582d5ae95bf73026957142a9b99ed361960073e9))
+
 ## [0.3.0](https://github.com/sessionsbot/docs/compare/v0.2.1...v0.3.0) (2025-09-07)
 
 ### ⚡️ Features
