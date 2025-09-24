@@ -7,15 +7,13 @@ You can invite Sessions Bot to a Discord server you manage by using either of 2 
 
  *--- OR ---*
 
- > 2. <del>Search for **Sessions Bot** within Discord's Application Marketplace.</del> <br> <i>(currently unavailable)</i>
+ > 2. Search for **Sessions Bot** within [Discord's Application Marketplace](https://discord.com/discovery/applications/).
 
 ::: warning ⚠️ NOTE!
-**Do NOT modify the default permissions granted to the Discord Bot** upon invite or its integration role within your server. Doing so can cause ***critical errors and may break functionality***.
-
-::: details Required Bot Permissions
-###### **`Create Private Threads`, `Create Public Threads`, `Embed Links`, `Manage Channels`, `Manage Messages`, `Manage Threads`, `Mention Everyone`, `Read Message History`, `Send Messages`, `Send Messages in Threads`, `View Channels`,** {#bot-perms}
+**Do NOT modify the default permissions granted to the Discord Bot** upon invite or its integration role within your server. Doing so can cause ***critical errors and break functionality***.
 
 :::
+
 
 
 ## Setting Up {#setup}
@@ -47,3 +45,13 @@ This greeting message *(as well as [`/setup`](./commands.md#setup))* directs the
 Once you've been directed to your server's setup page, complete prompts/forms as described.
 See [Server Configuration](/server-config) for different setup options available to you.
 
+
+## Required Bot Permissions
+
+> Sessions Bot needs certain permissions within your Discord server to function properly!
+
+Please confirm that Sessions Bot is granted each permission below within your Discord server and ***ESPECIALLY ANY CHANNEL IT POSTS [SIGNUP PANELS](/session-schedules#signup-panels) WITHIN.***
+
+::: info Required Permissions
+**`Create Private Threads`, `Create Public Threads`, `Embed Links`, `Manage Channels`, `Manage Messages`, `Manage Threads`, `Mention Everyone`, `Read Message History`, `Send Messages`, `Send Messages in Threads`, `View Channels`,**
+:::
