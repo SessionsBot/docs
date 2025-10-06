@@ -4,7 +4,7 @@
 
 # Command Permissions
 
-A few of our Discord bot commands have required permissions set to prevent any user from accessing all bot features such as modifying session assignees, getting the server's setup link, etc. 
+A few of our Discord bot commands have default permissions set to prevent any user from accessing all bot features such as modifying session assignees, getting the server's setup link, etc. 
 
 You can see each commands required permission(s) inside the [`Command List`](./commands.md) section of our documentation.
 

@@ -20,6 +20,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/getting-started' },
+      { text: 'FAQs', link: '/faqs'},
     ],
 
     outline: "deep",
@@ -65,6 +66,13 @@ export default defineConfig({
           { text: 'Permissions', link: '/command-permissions', collapsed: true},
         ],
       },
+      {
+        text: 'FAQs',
+        link: '/faqs',
+        items: [
+          { text: 'Need Help?', link: 'https://sessionsbot.fyi/support'}
+        ]
+      }
     ],
 
     socialLinks: [
