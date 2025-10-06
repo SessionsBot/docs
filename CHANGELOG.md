@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.5.0](https://github.com/sessionsbot/docs/compare/v0.4.0...v0.5.0) (2025-10-06)
+
+### ⚡️ Features
+
+* FAQs ([7ba6101](https://github.com/sessionsbot/docs/commit/7ba6101a6b468a76a10ce09c69d3faff068a85a7))
+
 ## [0.4.0](https://github.com/sessionsbot/docs/compare/v0.3.0...v0.4.0) (2025-09-24)
 
 ### ⚡️ Features
